@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="first">
+        <h1>Books</h1>
+        <h1>Register</h1>
+
+    </div>
+    <div class="name">
+      <div class="div-1">
+        <h1>Books</h1>
+        <table border="1" id="table">
+          <tr>
+            <th class="one">Book Id</th>
+            <th class="one">Tittle</th>
+            <th class="one">Author</th>
+            <th class="one">Genre</th>
+            <th class="one">Availability</th>
+          </tr>
+          <tr>
+            <td class="id">1</td>
+            <td>
+              <a href="#">Booktittle 1</a>
+              <p class="border1">Publication Date:2000</p>
+              <br />
+              <p class="border1">Page Count:250</p>
+              <br />
+              <p class="border1">ISBN:123-4567890123</p>
+              <br />
+            </td>
+            <td>Author name 1</td>
+            <td>Genre 1</td>
+            <td>Available</td>
+          </tr>
+          <tr>
+            <td class="id">2</td>
+            <td>
+              <a href="#">Booktittle 2</a>
+              <p class="border1">Publication Date:2005</p>
+              <br />
+              <p class="border1">Page Count:300</p>
+              <br />
+              <p class="border1">ISBN:123-456789028283</p>
+              <br />
+            </td>
+            <td>Author name 2</td>
+            <td>Genre 2</td>
+            <td>Not Available</td>
+          </tr>
+          <tr>
+            <td class="id">3</td>
+            <td>
+              <a href="#">Booktittle 3</a>
+              <p class="border1">Publication Date:2010</p>
+              <br />
+              <p class="border1">Page Count:350</p>
+              <br />
+              <p class="border1">ISBN:123-45678901181883</p>
+              <br />
+            </td>
+            <td>Author name 3</td>
+            <td>Genre 3</td>
+            <td>Available</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="kanase">
+        
+      <div class="xyz">
+        
+        <form method="post">
+            <h1>Register</h1>
+          <label for="name" class="two">Name</label><br />
+          <input  class="two three" type="text" name="Name" id="name" placeholder="First Name" required /><br />
+
+          <label class="two" for="lastname">Last Name</label><br />
+          <input class="two" type="text" name="LastName" id="lastname" placeholder="Last Name"required /><br />
+
+          <label  class="two" for="dob">Date of Birth</label><br />
+          <input id="dob" class="two" name="dateofBirth" type="date" required /><br />
+
+          <label class="two" for="age">Age</label><br />
+          <input class="two" id="age" type="number" name="age" required placeholder="Age"/><br />
+
+          <label class="two" for="email">Email</label><br />
+          <input class="two" id="email" type="text" name="email" required placeholder=" Email Address"/><br />
+
+          <label class="two" for="password">Password</label><br />
+          <input class="two" id="password" type="password" name="password" required placeholder="Enter password" /><br />
+           
+          <label class="two" for="Cpassword">Confirm Password</label><br />
+          <input class="two" id="Cpassword" type="password" name="Cpassword" required placeholder="Confirm password" /><br />
+
+          <button type="submit" id="btn">Register</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

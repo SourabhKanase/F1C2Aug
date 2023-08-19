@@ -1,0 +1,79 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.div-1 {
+  height: 650px;
+  width: 600px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+#table {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.one {
+  padding: 8px;
+}
+/* .id{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+} */
+table {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.border1 {
+  border: 1px solid black;
+  padding: 4px;
+  margin: 3px;
+}
+h1 {
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+}
+.kanase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.xyz {
+  height: 650px;
+  width: 600px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#btn {
+  padding: 2px;
+  margin-top: 20px;
+  background-color: black;
+  color: aliceblue;
+}
+.two {
+  margin: 15px;
+}
+.first {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  position: sticky;
+  top: 0px;
+}
+.first > h1 {
+  display: inline-block;
+  padding-inline: 300px;
+}
